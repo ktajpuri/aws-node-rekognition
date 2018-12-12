@@ -48,6 +48,18 @@ const detectObjects = (imageBuffer) => {
     });
 };
 
+const detecttext = (imageBuffer) => {
+    const params = {
+        Image: {
+            Bytes: imageBuffer
+        }
+    };
+    rekognition.detectText(params, (err, data) => {
+        if (err) console.log(err, err.stack); // an error occurred
+        else     console.log(JSON.stringify(data, null, 4));           // successful response
+    });
+};
+
 sharp('imageWithFace.jpg')
     .toBuffer()
     .then(recognizeCelebrities);
