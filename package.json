@@ -1,0 +1,22 @@
+{
+  "name": "sharpsandpit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.374.0",
+    "canvas": "^2.2.0",
+    "gifencoder": "^1.1.0",
+    "gifshot": "^0.4.5",
+    "jimp": "^0.6.0",
+    "jpg-stream": "^1.1.2",
+    "readimage": "^1.1.1",
+    "sharp": "^0.21.0",
+    "writegif": "^1.1.0"
+  }
+}
