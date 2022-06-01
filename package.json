@@ -16,7 +16,7 @@
     "jimp": "^0.6.0",
     "jpg-stream": "^1.1.2",
     "readimage": "^1.1.1",
-    "sharp": "^0.21.0",
+    "sharp": "^0.30.5",
     "writegif": "^1.1.0"
   }
 }
